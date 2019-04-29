@@ -25,9 +25,9 @@ while True:
 				request = event.text
             	# логика ответа
 				if request == "привет":
-					write_msg(event.user_id, "Хай")
+					write_msg(event.user_id, "Привет!!!")
 					print(0)
 				elif request == "пока":
-					write_msg(event.user_id, "Пока((")
+					write_msg(event.user_id, "Пока")
 				else:
-					write_msg(event.user_id, "Не поняла вашего ответа...")
+					write_msg(event.user_id, "Пока не понимаю вас")
